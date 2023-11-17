@@ -1,0 +1,144 @@
+@font-face {
+    font-family: "gilroy-regular";
+    src: url("../fonts/gilroy-regular.ttf");
+}
+
+@font-face {
+    font-family: "gilroy-medium";
+    src: url("../fonts/gilroy-medium.ttf");
+}
+
+@font-face {
+    font-family: "gilroy-semibold";
+    src: url("../fonts/gilroy-semibold.ttf");
+}
+
+@font-face {
+    font-family: "gilroy-bold";
+    src: url("../fonts/gilroy-bold.ttf");
+}
+
+* {
+    margin: 0;
+    bottom: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: #FFF;
+}
+
+.top {
+    padding-top: 40px;
+}
+
+.header {
+    margin-bottom: 84px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    padding-left: 375px;
+}
+
+.menu {
+    display: flex;
+    padding-right: 515px;
+    gap: 24px;
+    list-style: none;
+}
+
+a.active {
+    color: #F25822;
+    font-family: Gilroy-SemiBold;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.menu-item {
+    color: #000;
+    font-family: Gilroy-Medium;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.title {
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.text {
+    color: #888;
+    font-family: Gilroy-Medium;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.contacts__content {
+    padding-bottom: 162px;
+    display: flex;
+    justify-content: center;
+    gap: 39px;
+    flex-wrap: wrap;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.contacts__info {
+    width: 522px;
+}
+
+.contacts__btns {
+    margin-top: 37px;
+    display: flex;
+    gap: 72px;
+    align-items: center;
+}
+
+.contacts_btn {
+    background: #F25822;
+    box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+    border-radius: 50px;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #FFFFFF;
+    padding: 15px 36px;
+    border: none;
+}
+
+.contacts_link {
+    font-size: 15px;
+    line-height: 18px;
+    color: #AAAAAA;
+}
+
+.contacts__logo {
+    padding-top: 97px;
+    padding-bottom: 96px;
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    flex-wrap: wrap;
+}
