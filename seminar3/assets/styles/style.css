@@ -1,22 +1,30 @@
-@font-face {
-    font-family: "gilroy-regular";
-    src: url("../fonts/gilroy-regular.ttf");
-}
-
-@font-face {
-    font-family: "gilroy-medium";
-    src: url("../fonts/gilroy-medium.ttf");
-}
-
-@font-face {
-    font-family: "gilroy-semibold";
+@font-face{
+    font-family: "Gilroy-Semibold";
     src: url("../fonts/gilroy-semibold.ttf");
-}
-
-@font-face {
-    font-family: "gilroy-bold";
+    font-style: normal;
+    font-weight: 400;
+    }
+    
+    @font-face{
+    font-family: "Gilroy-Bold";
     src: url("../fonts/gilroy-bold.ttf");
-}
+    font-style: normal;
+    font-weight: 400;
+    }
+    
+    @font-face{
+    font-family: "Gilroy-Medium";
+    src: url("../fonts/gilroy-medium.ttf");
+    font-style: normal;
+    font-weight: 400;
+    }
+    
+    @font-face{
+    font-family: "Gilroy-Regular";
+    src: url("../fonts/gilroy-regular.ttf");
+    font-style: normal;
+    font-weight: 400;
+    }
 
 * {
     margin: 0;
@@ -58,8 +66,6 @@ a.active {
     color: #F25822;
     font-family: Gilroy-SemiBold;
     font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
     line-height: normal;
 }
 
@@ -67,8 +73,6 @@ a.active {
     color: #000;
     font-family: Gilroy-Medium;
     font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
     line-height: normal;
 }
 
@@ -76,8 +80,6 @@ a.active {
     color: #000;
     font-family: Gilroy-Bold;
     font-size: 60px;
-    font-style: normal;
-    font-weight: 400;
     line-height: normal;
 }
 
@@ -85,8 +87,6 @@ a.active {
     color: #888;
     font-family: Gilroy-Medium;
     font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
     line-height: normal;
 }
 
@@ -98,8 +98,6 @@ a.active {
     flex-wrap: wrap;
     font-family: Gilroy-Bold;
     font-size: 15px;
-    font-style: normal;
-    font-weight: 400;
     line-height: normal;
 }
 
@@ -120,8 +118,6 @@ a.active {
     border-radius: 50px;
     font-family: Gilroy-Bold;
     font-size: 15px;
-    font-style: normal;
-    font-weight: 400;
     line-height: normal;
     color: #FFFFFF;
     padding: 15px 36px;
