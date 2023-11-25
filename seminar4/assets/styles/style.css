@@ -45,11 +45,8 @@ body {
     background-color: #FFF;
 }
 
-.top {
-    padding-top: 40px;
-}
-
 .header {
+    padding-top: 40px;
     margin: 0 auto 84px;
     display: flex;
     align-items: center;
@@ -80,43 +77,43 @@ a.active {
     line-height: normal;
 }
 
-.contacts_title {
+.intro_title {
     color: #000;
     font-family: Gilroy-Bold;
     font-size: 60px;
     line-height: normal;
+    margin-bottom: 17px;
 }
 
-.contacts_text {
+.intro_text {
     color: #888;
     font-family: Gilroy-Medium;
     font-size: 20px;
     line-height: normal;
 }
 
-.contacts__content {
+.intro {
     padding-bottom: 162px;
     display: flex;
     margin: 0 auto;
     gap: 39px;
-    flex-wrap: wrap;
     font-family: Gilroy-Bold;
     font-size: 15px;
     line-height: normal;
 }
 
-.contacts__info {
+.intro__info {
     width: 522px;
 }
 
-.contacts__btns {
+.intro__btns {
     margin-top: 37px;
     display: flex;
     gap: 72px;
     align-items: center;
 }
 
-.contacts_btn {
+.intro_btn {
     background: #F25822;
     box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
     border-radius: 50px;
@@ -128,19 +125,18 @@ a.active {
     border: none;
 }
 
-.contacts_link {
+.intro_link {
     font-size: 15px;
     line-height: 18px;
     color: #AAAAAA;
 }
 
-.contacts__logo {
+.logos {
     padding-top: 97px;
     padding-bottom: 96px;
     display: flex;
     justify-content: center;
     gap: 48px;
-    flex-wrap: wrap;
 }
 
 .features {
