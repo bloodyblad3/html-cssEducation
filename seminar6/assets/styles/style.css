@@ -277,11 +277,52 @@ a {
     }
 
     .products {
-        margin-top: 110px;
+        margin: 110px 8px 0;
+    }
+
+    .products__header {
+        margin-bottom: 65px;
     }
 
     .products__items {
         grid-template-columns: repeat(2, 1fr);
         gap: 16px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .header {
+        margin: 0 16px;
+    }
+    .intro {
+        height: 363px;
+        display: flex;
+        align-items: center;
+    }
+
+    .intro-content_title {
+        font-size: 38px;
+    }
+    
+    .intro-content_sub-title {
+        font-size: 20px;
+    }
+
+    .hide_obj {
+        display: none;
+    }
+    
+    .offer {
+        grid-template-columns: 1fr;
+        gap: 32px;
+    }
+
+    .offer_card_big {
+        grid-column: auto;
+        height: 111px;
+    }
+
+    .products__items {
+        grid-template-columns: 1fr;
     }
 }
