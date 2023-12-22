@@ -87,16 +87,14 @@ a {
 
 .header__menu-item:first-child:hover .dropdown_menu {
     opacity: 1;
-    visibility: visible;
 }
 
 .dropdown_menu {
     position: fixed;
-    visibility: hidden;
     top: 75px;
     right: 0;
     opacity: 0;
-    transition: opacity 0.3s ease, visibility 0.3s ease;
+    transition: opacity 0.3s ease;
     width: 232px;
     height: 634px;
     background-color: #FFFFFF;
