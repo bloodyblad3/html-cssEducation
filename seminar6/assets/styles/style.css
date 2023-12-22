@@ -85,17 +85,24 @@ a {
     font-weight: 400;
 }
 
-.header-mobile_menu {
-    position: absolute;
-    top: 51px;
+.header__menu-item:first-child:hover .dropdown_menu {
+    opacity: 1;
+    visibility: visible;
+}
+
+.dropdown_menu {
+    position: fixed;
+    visibility: hidden;
+    top: 75px;
+    right: 0;
+    opacity: 0;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
     width: 232px;
     height: 634px;
     background-color: #FFFFFF;
-    opacity: 0;
-    transition: .5s;
 }
 
-.mobile_menu-heading {
+.dropdown_menu-heading {
     padding: 32px 0 24px 33px;
     color: black;
     font-size: 14px;
@@ -126,10 +133,6 @@ a {
 
 .menu-desc:hover {
     color: #F16D7F;
-}
-
-.header__menu-item:hover:first-child .header-mobile_menu {
-    opacity: 1;
 }
 
 .intro__color {
