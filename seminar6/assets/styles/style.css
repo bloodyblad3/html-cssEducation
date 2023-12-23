@@ -572,7 +572,7 @@ a {
     }
 
     .products {
-        margin: 110px;
+        margin-top: 110px;
     }
 
     .products__header {
