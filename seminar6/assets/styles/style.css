@@ -94,7 +94,7 @@ a {
     top: 75px;
     right: 0;
     opacity: 0;
-    transition: opacity 0.3s ease;
+    transition: 0.3s ease;
     width: 232px;
     height: 634px;
     background-color: #FFFFFF;
@@ -394,7 +394,7 @@ a {
 .feature_card-desc {
     padding-top: 16px;
     opacity: .6;
-    padding-bottom: 0 30px;
+    padding-bottom: 30px;
     font-size: 13.97px;
     font-family: Lato;
     font-weight: 300;
